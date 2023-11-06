@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import axios from "./Api";
 export const callLoginUser = async (user) => {
   const res = await axios.post(

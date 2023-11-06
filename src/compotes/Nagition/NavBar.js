@@ -1,17 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import LogoPage from "./LogoPage";
 import { NavLink, useNavigate, useParams } from "react-router-dom";
-import { logOut } from "sever/service";
 import { toast } from "react-toastify";
 
 const NavBar = () => {
-    const {id} = useParams();
+    // const {id} = useParams();
   const navigate = useNavigate()
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     const email = localStorage.getItem("dataUser") || "";
 
     const handleLogout = () => {
-
         localStorage.removeItem("currentUser");
         localStorage.removeItem("dataUser");
         toast.success("Success")

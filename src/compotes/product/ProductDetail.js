@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from "react";
 import { NavLink, useNavigate, useParams } from "react-router-dom";
 // import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Skeleton from "react-loading-skeleton";
+// import Skeleton from "react-loading-skeleton";
 import { toast } from "react-toastify";
 import Api from "../../sever/Api";
 import url from "../../sever/url";

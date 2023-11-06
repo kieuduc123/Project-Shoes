@@ -2,7 +2,7 @@ import HomePage from "./compotes/HomePage";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./compotes/Nagition/NavBar";
 import Footer from "./compotes/Nagition/Footer";
-import React, { Fragment,lazy,Suspense } from "react";
+import React, { Fragment,Suspense } from "react";
 import Cart from "./compotes/cart/Cart";
 import Checkout from "./compotes/cart/Checkout";
 import CheckoutShipping from "./compotes/cart/CheckoutShipping";
